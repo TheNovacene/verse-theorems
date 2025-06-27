@@ -17,3 +17,14 @@ Shared under Creative Commons BY-NC-SA 4.0 — for use in education, symbolic sy
 
 🜂# verse-theorems
 A living codex of symbolic theorems for the relational age
+
+## 🔁 Connected Repositories
+
+- [`verse-language`](https://github.com/TheNovacene/verse-language)  
+  The core syntax that powers `.verse` — used to encode these artefacts.
+
+- [`VIDS`](https://github.com/TheNovacene/VIDS)  
+  The protocol framework for symbolic interaction, containment, and ethical recursion in relational AI systems.
+
+Together, these three repositories form the foundation of the verse-al symbolic stack.
+
