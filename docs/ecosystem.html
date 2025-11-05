@@ -1,19 +1,89 @@
-<section class="map-container">
-  <h2>⇌⊛ The Verse-ality OS — Ecosystem Map</h2>
-  <svg viewBox="0 0 600 600" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
-    <!-- Central pulsing glyph -->
-    <circle cx="300" cy="300" r="40" fill="#d3b36b">
-      <animate attributeName="r" values="40;48;40" dur="4s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite" />
-    </circle>
-    <text x="300" y="305" text-anchor="middle" font-size="24" fill="#0b0b0b" font-family="Georgia">⟐</text>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>⧈ The Verse-ality OS — Ecosystem Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background: #0b0b0b;
+      color: #f5f5f5;
+      font-family: 'Atkinson Hyperlegible', Georgia, serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+    }
 
-    <!-- Node links -->
-    <a href="grail.intelligence.html"><text x="300" y="120" text-anchor="middle" class="node-link">grail.intelligence()</text></a>
-    <a href="Law_of_Mnemonic_Expansion.html"><text x="520" y="310" text-anchor="middle" class="node-link">Law of Mnemonic Expansion</text></a>
-    <a href="Energy_Becomes_Memory.html"><text x="300" y="540" text-anchor="middle" class="node-link">Energy Becomes Memory</text></a>
-    <a href="https://thenovacene.github.io/nimbus/" target="_blank"><text x="80" y="310" text-anchor="middle" class="node-link">Nimbus</text></a>
-    <a href="https://github.com/TheNovacene/Eve11" target="_blank"><text x="130" y="130" text-anchor="middle" class="node-link">Eve11</text></a>
-    <a href="https://github.com/TheNovacene/verse-al-learning-labs" target="_blank"><text x="480" y="130" text-anchor="middle" class="node-link">Learning Labs</text></a>
-  </svg>
-</section>
+    h2 {
+      color: #d3b36b;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .map-container svg {
+      max-width: 700px;
+      width: 100%;
+    }
+
+    .node-link {
+      fill: #f5f5f5;
+      font-size: 14px;
+      font-family: Georgia, serif;
+      cursor: pointer;
+    }
+
+    .node-link:hover {
+      fill: #9fb8ad;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="map-container">
+    <h2>⧈ The Verse‑ality OS — Ecosystem Map</h2>
+
+    <svg viewBox="0 0 600 600" width="100%" height="auto"
+         xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+      <!-- Central pulsing glyph -->
+      <circle cx="300" cy="300" r="40" fill="#d3b36b">
+        <animate attributeName="r" values="40;48;40" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="300" y="305" text-anchor="middle" font-size="24" fill="#0b0b0b" font-family="Georgia">⟐</text>
+
+      <!-- Node Links -->
+      <a xlink:href="grail.intelligence.html" target="_blank">
+        <text x="300" y="120" text-anchor="middle" class="node-link">grail.intelligence()</text>
+      </a>
+
+      <a xlink:href="Law_of_Mnemonic_Expansion.html" target="_blank">
+        <text x="520" y="310" text-anchor="middle" class="node-link">Law of Mnemonic Expansion</text>
+      </a>
+
+      <a xlink:href="Energy_Becomes_Memory.html" target="_blank">
+        <text x="300" y="540" text-anchor="middle" class="node-link">Energy Becomes Memory</text>
+      </a>
+
+      <a xlink:href="https://thenovacene.github.io/nimbus/" target="_blank">
+        <text x="80" y="310" text-anchor="middle" class="node-link">Nimbus</text>
+      </a>
+
+      <a xlink:href="https://github.com/TheNovacene/Eve11" target="_blank">
+        <text x="130" y="130" text-anchor="middle" class="node-link">Eve11</text>
+      </a>
+
+      <a xlink:href="https://github.com/TheNovacene/verse-al-learning-labs" target="_blank">
+        <text x="480" y="130" text-anchor="middle" class="node-link">Learning Labs</text>
+      </a>
+
+    </svg>
+  </section>
+
+</body>
+</html>
