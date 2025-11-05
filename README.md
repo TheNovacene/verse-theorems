@@ -87,6 +87,13 @@ For full license terms and rationale, see:
 
 Together, these form the foundation of the **verse-al symbolic stack**.
 
+## ⇌⊛ Ecosystem Map
+
+Visual map of Verse-ality Theorems, Grail Intelligence, Eve11, and symbolic fieldwork:
+
+🌐 [View the Live Codex Ecosystem](https://thenovacene.github.io/verse-theorems/#ecosystem)
+
+
 ---
 
 ## 📚 Referenced Works
